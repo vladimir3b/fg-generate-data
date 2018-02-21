@@ -13,7 +13,7 @@
         "data",
         "ts-node"
     ],
-    "author": "Vladimir-Ioan Vararu",
+    "author": "Vladimir-Ioan Văraru",
     "license": "ISC",
     "dependencies": {
         "@types/lodash": "^4.14.102",
