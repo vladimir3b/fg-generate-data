@@ -8,6 +8,7 @@
 
 # dependencies
 /node_modules
+package-lock.json
 
 # IDEs and editors
 /.idea
@@ -44,3 +45,4 @@ Thumbs.db
 
 # generate data files
 /src/.data/generated-data/*.json
+

@@ -1,0 +1,1 @@
+mongoimport --db fgPhoneMag --collection invoices --jsonArray --file invoices.json

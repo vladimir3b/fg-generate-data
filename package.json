@@ -1,0 +1,33 @@
+{
+    "name": "generate.data",
+    "version": "1.0.0",
+    "description": "generate random data",
+    "main": "index.ts",
+    "scripts": {
+        "test-init": "jasmine-ts init",
+        "test": "jasmine-ts JASMINE_CONFIG_PATH=./jasmine.json",
+        "start": "ts-node --project ./tsconfig.json ./src/index.ts"
+    },
+    "keywords": [
+        "generate",
+        "data",
+        "ts-node"
+    ],
+    "author": "Vladimir-Ioan Vararu",
+    "license": "ISC",
+    "dependencies": {
+        "@types/lodash": "^4.14.102",
+        "@types/node": "^9.4.0",
+        "lodash": "^4.17.5",
+        "moment": "^2.20.1",
+        "randexp": "^0.5.0",
+        "ts-node": "^4.1.0",
+        "typescript": "^2.7.1"
+    },
+    "devDependencies": {
+        "@types/jasmine": "^2.8.6",
+        "jasmine": "^2.9.0",
+        "jasmine-ts": "^0.2.1",
+        "tslint": "^5.9.1"
+    }
+}
